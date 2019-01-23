@@ -1,55 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Header from "./Components/Header"
+import MainContent from "./Components/MainContent"
+import Footer from "./Components/Footer"
 import './App.css';
 
-
-// class App extends Component {
-
-
-//   render() {
-//     return (
-//       <div className="App">
-//         <header className="App-header">
-//           <img src={logo} className="App-logo" alt="logo" />
-//           <p>
-//             Edit <code>src/App.js</code> and save to reload.
-//           </p>
-//           <a
-//             className="App-link"
-//             href="https://reactjs.org"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//           >
-//             Learn React
-//           </a>
-//         </header>
-//       </div>
-//     );
-//   }
-// }
-
-class TestApp extends Component {
-
+class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            This is a test
-          </a>
-        </header>
+      <div>
+        <Header />
+        <MainContent />
+        <Footer />
       </div>
     );
   }
 }
 
-export default TestApp;
+export default App;
