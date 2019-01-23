@@ -4,9 +4,11 @@ class Header extends Component{
 
     render(){
         return(
-            <hl>This is a header </hl>
+            <header className='header'>This is a header </header>
         );
     }
 }
+
+
 
 export default Header

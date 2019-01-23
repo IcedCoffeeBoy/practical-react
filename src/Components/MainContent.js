@@ -1,11 +1,20 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 class MainContent extends Component {
+
     render() {
         return (
-            <main>
-                This is Main Content
-            </main>
+            <ul>
+                <li>Name:
+                    <input type='text'></input>
+                </li>
+                <li>Faculty:
+                    <input type='text'></input>
+                </li>
+                <li>Etc:
+                    <input type='text'></input>
+                </li>
+            </ul>
         );
     }
 
