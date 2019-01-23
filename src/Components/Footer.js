@@ -9,7 +9,7 @@ class Footer extends Component {
 }
 
 const footerstyles = {
-    backgroundColor: 'yellow',
+    backgroundColor: 'grey',
 };
 
 export default Footer;
